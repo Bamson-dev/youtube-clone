@@ -26,12 +26,7 @@ This project replicates the core YouTube UI with less clutter, better spacing, a
 - JavaScript
 
 
-## Status
-
-In progress
-
 ## Author
 
 Bamidele Matthew
 Software Developer | Meta Ads Strategist
-Lagos, Nigeria
