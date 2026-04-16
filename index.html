@@ -1673,6 +1673,202 @@ body[data-theme="light"] .category-tab.active {
   }
 }
 
+/* Strong mobile pass for iPhone-class screens */
+@media (max-width: 640px) {
+  :root {
+    --content-pad: 12px;
+  }
+
+  .top-nav {
+    padding-inline: 10px;
+  }
+
+  .top-nav-inner {
+    gap: 8px 10px;
+  }
+
+  .brand-text {
+    font-size: 0.95rem;
+  }
+
+  .icon-btn {
+    padding: 8px 10px;
+  }
+
+  .search-wrap {
+    padding: 8px 12px;
+  }
+
+  .category-strip-wrap {
+    padding: 12px var(--content-pad);
+  }
+
+  .category-tab {
+    padding: 8px 14px;
+    font-size: 0.82rem;
+  }
+
+  .content {
+    padding-top: 10px;
+  }
+
+  /* Avoid horizontal overflow from full-bleed hero technique on phones */
+  .home-hero-banner {
+    margin: 0 0 18px;
+    width: 100%;
+    min-height: 180px;
+    border-radius: 12px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+  }
+
+  .home-hero-title {
+    font-size: 1.1rem;
+  }
+
+  .home-hero-channel,
+  .home-hero-views {
+    font-size: 0.8rem;
+  }
+
+  .home-hero-actions {
+    gap: 8px;
+  }
+
+  .btn-hero-primary,
+  .btn-hero-secondary {
+    padding: 8px 14px;
+    font-size: 0.82rem;
+  }
+
+  .video-grid {
+    gap: 16px;
+  }
+
+  .video-card-title {
+    font-size: 0.9rem;
+  }
+
+  .video-card-channel,
+  .video-card-stats {
+    font-size: 0.78rem;
+  }
+
+  .site-footer {
+    padding: 16px var(--content-pad) var(--footer-pad);
+  }
+
+  .footer-links {
+    display: none;
+  }
+}
+
+/* iPhone Pro Max landscape and other short-height viewports */
+@media (max-height: 460px) and (orientation: landscape) {
+  :root {
+    --nav-h: 52px;
+    --content-pad: 10px;
+  }
+
+  .top-nav {
+    padding-inline: 10px;
+  }
+
+  .top-nav-inner {
+    min-height: var(--nav-h);
+    gap: 6px 10px;
+  }
+
+  .brand-mark {
+    width: 24px;
+    height: 24px;
+  }
+
+  .brand-text {
+    font-size: 0.92rem;
+  }
+
+  .icon-btn {
+    padding: 7px 9px;
+  }
+
+  .search-wrap {
+    order: 0;
+    flex: 1 1 auto;
+    max-width: min(540px, 100%);
+    padding: 7px 12px;
+  }
+
+  .category-strip-wrap {
+    padding: 8px var(--content-pad) 10px;
+  }
+
+  .category-tab {
+    padding: 6px 12px;
+    font-size: 0.78rem;
+  }
+
+  .home-hero-banner {
+    min-height: 128px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    padding-bottom: 14px;
+  }
+
+  .home-hero-title {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    -webkit-line-clamp: 1;
+  }
+
+  .home-hero-channel,
+  .home-hero-views {
+    font-size: 0.74rem;
+    margin-bottom: 4px;
+  }
+
+  .home-hero-actions {
+    gap: 6px;
+  }
+
+  .btn-hero-primary,
+  .btn-hero-secondary {
+    padding: 6px 12px;
+    font-size: 0.76rem;
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .thumbnail-btn img {
+    aspect-ratio: 16 / 9;
+  }
+
+  .video-card-title {
+    font-size: 0.82rem;
+  }
+
+  .video-card-channel,
+  .video-card-stats {
+    font-size: 0.72rem;
+  }
+
+  .duration-pill {
+    font-size: 0.68rem;
+    padding: 3px 6px;
+  }
+
+  .sidebar {
+    width: min(250px, 70vw);
+  }
+
+  .site-footer {
+    display: none;
+  }
+}
+
     </style>
   </head>
   <body>
