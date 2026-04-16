@@ -13,7 +13,7 @@ This project replicates the core YouTube UI with less clutter, better spacing, a
 ## Features
 
 - Dark mode by default
-- Mobile responsive
+- Available On Desktop alone 
 - Clean navigation with collapsible sidebar
 - Video cards with thumbnail, title, channel, views, and upload date
 - Filter tabs for content categories
